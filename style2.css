@@ -22,12 +22,29 @@ body {
     font-size: 40px;
 }
 
+#indice{
+    background-color: #A2A392;
+    width: 15%;
+    border-radius: 100px;
+    padding-left: 20px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid gray;
+    font-weight: 900;
+}
+
+#indice_titulo{
+    color: #F8F4E3;
+    font-weight: 900;
+    padding-left: 40px;
+}
+
 .bloco_principal {
     background-color: #A2A392;
 
     display: flex;
     justify-content: center;
-    
+    border: 2px solid gray;
 }
 
 #perfil {
@@ -62,8 +79,10 @@ body {
 
 .titulo_box{
     color: #F8F4E3;
-    padding-top: 15px;
+    padding-top: 12px;
     font-weight: 900;
+    background-color: #6D6E5E;
+    border-radius: 100px;
 }
 
 .paragrafo_box{
