@@ -6,6 +6,8 @@ body {
     font-weight: 10px;
     font-size: 16px;
     background-color: #F8F4E3;
+    width: 90%;
+    padding-left: 90px;
 }
 
 .cabecalho {
@@ -41,7 +43,6 @@ body {
 
 .bloco_principal {
     background-color: #A2A392;
-
     display: flex;
     justify-content: center;
     border: 2px solid gray;
