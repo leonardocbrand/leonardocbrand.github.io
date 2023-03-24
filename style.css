@@ -13,6 +13,7 @@ body {
 .cabecalho {
     width: 100%;
     padding: 10px;
+    border-bottom: 1px solid grey;
     
     display: flex;
     justify-content: center;
@@ -29,16 +30,21 @@ body {
     width: 15%;
     border-radius: 100px;
     padding-left: 20px; 
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
     border: 2px solid gray;
     font-weight: 900;
+    margin-top: 1%;
 }
 
 #indice_titulo{
     color: #F8F4E3;
     font-weight: 900;
-    padding-left: 40px;
+    padding-left: 15%;
+}
+
+#lista {
+    padding-left: 15%;
 }
 
 .bloco_principal {
@@ -46,17 +52,21 @@ body {
     display: flex;
     justify-content: center;
     border: 2px solid gray;
+    width: 100%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+
 }
 
 #perfil {
     height: 300px;
-    width: 300px;
+    width: 15%;
     border-radius: 100%;
 }
 
 #nome {
-    padding-left: 40px;
-    padding-top: 100px;
+    padding-top: 6%;
+    padding-left: 1%;
     font-size: 20px;
     color: #F8F4E3;
     
@@ -74,8 +84,10 @@ body {
     width: 30%;
     text-align: center;
     border: 2px solid gray;
-    padding: 10px 20px;
-    height: 220px;
+    padding: 4% 2%;
+    height: auto;
+    
+
 }
 
 .titulo_box{
@@ -102,6 +114,35 @@ body {
 }
 
 .alinhar_box{
+    margin-top: 3%;
     display: flex;
     justify-content: space-around;
 }
+
+.rodape {
+    border-top: 1px solid grey;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;   
+}
+
+#rodape_titulo {
+    font-weight: 900;
+    color: #6D6E5E;
+}
+
+.logo_rodape {
+    width: 3%;
+    border-radius: 100%;
+    margin: 0.5%;
+}
+
+.rainbow{  
+    color: #fff;
+    cursor: pointer;
+  }
+
+.rainbow-1:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+ } 
