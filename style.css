@@ -10,41 +10,39 @@ body {
     padding-left: 90px;
 }
 
-.cabecalho {
+header {
     width: 100%;
     padding: 10px;
-    border-bottom: 1px solid grey;
     
-    display: flex;
-    justify-content: center;
 }
 
 .titulo{
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-weight: 10px;
     font-size: 40px;
 }
 
-#indice{
+.menu {
+    list-style: none;
+    color: black;
+    display: flex;
+    justify-content: center;
     background-color: #A2A392;
-    width: 15%;
-    border-radius: 100px;
-    padding-left: 20px; 
-    padding-top: 10px;
-    padding-bottom: 5px;
     border: 2px solid gray;
-    font-weight: 900;
-    margin-top: 1%;
+    height: 80px;    
+    
 }
 
-#indice_titulo{
+.menu li{
+    margin: 50px;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.menu li a{
+    text-decoration: none;
     color: #F8F4E3;
     font-weight: 900;
-    padding-left: 15%;
-}
-
-#lista {
-    padding-left: 15%;
 }
 
 .bloco_principal {
