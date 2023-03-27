@@ -27,22 +27,24 @@ header {
     color: black;
     display: flex;
     justify-content: center;
-    background-color: #A2A392;
-    border: 2px solid gray;
-    height: 80px;    
+    height: 80px;   
+    border-bottom: 2px solid grey;
+
     
 }
 
 .menu li{
     margin: 50px;
     font-family: Montserrat, sans-serif;
-
 }
 
-.menu li a{
+.menu li a:hover{
     text-decoration: none;
     color: #F8F4E3;
     font-weight: 900;
+    background-color: #A2A392;
+    border: 2px solid grey;
+    padding: 5px;
 }
 
 .bloco_principal {
