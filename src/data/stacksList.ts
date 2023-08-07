@@ -1,0 +1,17 @@
+export const stacksList = [
+  { id:'javascript', name: 'javascript' }, 
+  { id:'typescript', name: 'typescript' }, 
+  { id:'react', name: 'react' }, 
+  { id:'nextdotjs', name: 'next.js' }, 
+  { id:'redux', name: 'redux' }, 
+  { id: 'mui', name: 'mui' }, 
+  { id: 'tailwindcss', name: 'tailwind' }, 
+  { id: 'jest', name: 'jest' }, 
+  { id: 'testinglibrary', name: 'rtl' }, 
+  { id: 'nodedotjs', name: 'node.js' },
+  { id: 'python', name: 'python' },
+  { id: 'html5', name: 'html5' },
+  { id: 'css3', name: 'css3' },
+  { id: 'styledcomponents', name: 'styled' },
+  { id: 'eslint', name: 'eslint' },
+];
