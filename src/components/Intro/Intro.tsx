@@ -15,7 +15,7 @@ function Intro() {
       direction={{ xs: 'column', md: 'row' }}
       alignItems="center"
       sx={{ minHeight: '100vh' }}
-      mt={{ xs: '25vh', md: 0 }}
+      mt={{ xs: '15vh', md: 0 }}
       spacing={{ xs: 6, md: 8 }}
     >
       <Reveal>
