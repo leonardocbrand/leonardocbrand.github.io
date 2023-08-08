@@ -59,7 +59,7 @@ function About() {
                   Essas habilidades me permitem trabalhar em equipe e me adaptar a diferentes ambientes de trabalho.
                   Sou especializado em desenvolvimento web fullstack, com foco em ReactJS, NodeJS e Typescript.
                   Atualmente sou estudante do curso de desenvolvimento web na Trybe e atuo como freelancer.
-                  Estou em busca de novas oportunidades para contrubir em projetos desafiadores e que me
+                  Estou em busca de novas oportunidades para contribuir em projetos desafiadores e que me
                   permitam crescer profissionalmente.
             </Typography>
           </Reveal>
