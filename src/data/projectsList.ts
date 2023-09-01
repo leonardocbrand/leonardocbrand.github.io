@@ -9,6 +9,20 @@ type Project = {
 
 const projectsList: Project[] = [
   {
+    image: 'https://i.imgur.com/6ICxT4U.png',
+    name: 'Recipes App',
+    urlGithub: 'https://github.com/leonardocbrand/recipes-app',
+    urlDeploy: 'https://recipes-app-weld.vercel.app/',
+    stacks: 'React - TypeScript - MUI - Context API - RTL',
+    description: 
+      'Projeto que usa duas APIs de receitas,' +
+      ' uma de comidas e uma de bebidas.' +
+      ' O aplicativo oferece uma ampla gama de recursos aos usuários,'+
+      'permitindo que eles visualizem, pesquisem, filtrem e '+
+      'favoritem receitas de comida e bebidas.'+
+      ' Além disso, é possível acompanhar detalhadamente o processo de preparação das receitas, passo a passo.'
+  },
+  {
     image: 'https://i.imgur.com/OAoQORE.png',
     name: 'Random Users',
     urlGithub: 'https://github.com/leonardocbrand/random-users-project',
