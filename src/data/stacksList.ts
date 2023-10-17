@@ -15,4 +15,7 @@ export const stacksList = [
   { id: 'styledcomponents', name: 'styled' },
   { id: 'eslint', name: 'eslint' },
   { id: 'docker', name: 'docker' },
+  { id: 'express', name: 'express' },
+  { id: 'chai', name: 'chai' },
+  { id: 'mysql', name: 'mysql' },
 ];

@@ -9,6 +9,16 @@ type Project = {
 
 const projectsList: Project[] = [
   {
+    image: 'https://i.imgur.com/pCmDwNV.png',
+    name: 'Kukac Challenge',
+    urlGithub: 'https://github.com/leonardocbrand/kukac-challenge',
+    stacks: 'TypeScript - Node - Express - React - MUI - Jest - Docker',
+    description: 
+      `Aplicação web dividida em frontend e backend, 
+      com o processamento de dados ocorrendo exclusivamente no backend. 
+      O projeto engloba a resolução de quatro problemas distintos.`
+  },
+  {
     image: 'https://i.imgur.com/6ICxT4U.png',
     name: 'Recipes App',
     urlGithub: 'https://github.com/leonardocbrand/recipes-app',

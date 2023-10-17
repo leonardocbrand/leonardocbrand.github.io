@@ -22,7 +22,7 @@ function CardsGrid() {
               width="78%"
               borderRadius="0.4rem"
               component="img"
-              onClick={() => window.open(project.urlDeploy, '_blank')} 
+              onClick={() => window.open(project.urlDeploy || project.urlGithub, '_blank')} 
               src={project.image}
               alt={project.name}
               sx={{
