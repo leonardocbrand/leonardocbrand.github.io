@@ -9,6 +9,18 @@ type Project = {
 
 const projectsList: Project[] = [
   {
+    image: 'https://i.imgur.com/eFZfRNr.jpg',
+    name: 'OZmap Challenge',
+    urlGithub: 'https://github.com/leonardocbrand/ozmap-challenge',
+    stacks: 'TypeScript - Node - Express - Chai - MongoDB - Mongoose - Swagger - Docker',
+    description: 
+      `API Restful voltada para o gerenciamento de usuários e regiões,
+       utiliza a API do Google para transformar o endereço do usuário em coordenadas, 
+       utiliza georreferenciamento para permitir a listagem de regiões por um ponto específico e 
+       também a listagem de regiões a uma certa distância de um ponto. A API também apresenta toda sua documentação
+       e cobertura de testes. `
+  },
+  {
     image: 'https://i.imgur.com/pCmDwNV.png',
     name: 'Kukac Challenge',
     urlGithub: 'https://github.com/leonardocbrand/kukac-challenge',
@@ -17,6 +29,16 @@ const projectsList: Project[] = [
       `Aplicação web dividida em frontend e backend, 
       com o processamento de dados ocorrendo exclusivamente no backend. 
       O projeto engloba a resolução de quatro problemas distintos.`
+  },
+  {
+    image: 'https://i.imgur.com/n85ZDLI.png',
+    name: 'Azapfy Challenge',
+    urlGithub: 'https://github.com/leonardocbrand/kukac-challenge',
+    urlDeploy: 'https://azapfy-challenge.vercel.app/',
+    stacks: 'TypeScript - Next - React - TailwindCSS - MUI - Zustand',
+    description: 
+      `Frontend de uma aplicação Web que abraça 
+      a temática de heróis e possui um minigame com sistema de batalha entre os heróis.`
   },
   {
     image: 'https://i.imgur.com/6ICxT4U.png',

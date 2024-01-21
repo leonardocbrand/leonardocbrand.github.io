@@ -18,4 +18,8 @@ export const stacksList = [
   { id: 'express', name: 'express' },
   { id: 'chai', name: 'chai' },
   { id: 'mysql', name: 'mysql' },
+  { id: 'swagger', name: 'swagger' },
+  { id: 'mongodb', name: 'mongodb' },
+  { id: 'mongoose', name: 'mongoose' },
+  { id: 'nestjs', name: 'nestjs' },
 ];
